@@ -38,7 +38,31 @@ public class Main {
 		System.out.println("----------------------------------------------------------");
 
 		Pilha p = new Pilha();
-		
+		System.out.println("----------------------------------------------------------");
+		System.out.println("Operações com Pilha:");
+
+		System.out.println("\tEmpilhar: ");
+		p.mostrarPilha();
+		p.empilhar("Jordan");
+		p.mostrarPilha();
+		p.empilhar("Mikael");
+		p.mostrarPilha();
+		p.empilhar("Tupã");
+		p.mostrarPilha();
+
+		System.out.println("\tA pilha está fazia?");
+		p.pilhaVazia();
+
+		System.out.println("\tDesempilhando: ");
+		p.mostrarPilha();
+		p.desempilhar();
+		p.mostrarPilha();
+		p.desempilhar();
+		p.mostrarPilha();
+		p.desempilhar();
+		p.mostrarPilha();
+		System.out.println("----------------------------------------------------------");
+
 		Lista l = new Lista();
 
 	}
