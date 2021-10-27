@@ -64,7 +64,31 @@ public class Main {
 		System.out.println("----------------------------------------------------------");
 
 		Lista l = new Lista();
+		System.out.println("----------------------------------------------------------");
+		System.out.println("Operações com Lista:");
 
+		System.out.println("\tInserir na Lista: ");
+		l.mostrarLista();
+		l.inserirLista("Jordan");
+		l.mostrarLista();
+		l.inserirLista("Mikael");
+		l.mostrarLista();
+		l.inserirLista("Tupã");
+		l.mostrarLista();
+
+		System.out.println("\tA lista está vazia?");
+		l.listaVazia();
+
+		System.out.println("\tRemover da Lista: ");
+		l.mostrarLista();
+		l.removerLista("Jordan");
+		l.mostrarLista();
+		l.removerLista("Tupã");
+		l.mostrarLista();
+		l.removerLista("Mikael");
+		l.mostrarLista();
+		l.removerLista("Remover o que nao existe");
+		System.out.println("----------------------------------------------------------");
 	}
 
 }
